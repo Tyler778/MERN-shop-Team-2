@@ -29,7 +29,7 @@ const Navbar = ({ click }) => {
           <Link to="/">Shop</Link>
         </li>
         <li>
-            <Link to="" className="account__link">
+            <Link to="/login" className="account__link">
                 Sign In
             </Link>
         </li>

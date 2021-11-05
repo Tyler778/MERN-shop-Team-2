@@ -19,7 +19,7 @@ const HomeScreen = () => {
   }, [dispatch]);
 
   return (
-    <div className="homescreen">
+  <div className="homescreen">
       <h2 className="homescreen__title">Latest Products</h2>
       <div className="homescreen__products">
         {loading ? (
@@ -34,8 +34,7 @@ const HomeScreen = () => {
               description={product.description}
               price={product.price}
               imageUrl={product.imageUrl}
-              productId={product._id}
-            />
+              productId={product._id} />
           ))
         )}
       </div>

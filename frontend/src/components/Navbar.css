@@ -97,3 +97,12 @@
     font-size: 1rem;
   }
 }
+
+.account__link {
+  padding-right:1rem;
+
+}
+
+.account__link:hover {
+  text-decoration: underline;
+}
